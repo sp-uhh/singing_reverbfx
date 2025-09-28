@@ -1,32 +1,33 @@
-# ReverbFX
+# SingingReverbFX
 
-ReverbFX provides generation scripts for the SingingReverbFX Benchmark — a dataset designed to evaluate dereverberation methods for singing voices processed with various reverb effects.
+This repository provides generation scripts for the SingingReverbFX benchmark — a dataset designed to evaluate dereverberation methods for singing voices processed with various reverb effects.
 
 ## Overview
 
-The SingingReverbFX benchmark simulates reverberant singing voices by convolving clean vocal recordings with ReverbFX Room Impulse Responses (RIRs). This setup enables testing and development of dereverberation algorithms specifically for singing voice signals.
+The SingingReverbFX benchmark simulates reverberant singing voices by convolving clean vocal recordings with ReverbFX room impulse responses (RIRs). This setup enables testing and development of dereverberation algorithms specifically for singing voice signals.
 
-You can download the ReverbFX RIRs [here](https://zenodo.org/records/16186381). 
+You can download the ReverbFX RIRs <a href="https://zenodo.org/records/16186381" target="_blank">here</a>.
 
 ## Included Datasets
 
 The following singing voice datasets are used:
 
-- [OpenSinger](https://drive.google.com/file/d/1EofoZxvalgMjZqzUEuEdleHIZ6SHtNuK/view)
-- [M4Singer](https://drive.google.com/file/d/1xC37E59EWRRFFLdG3aJkVqwtLDgtFNqW/view)
-- [CSD](https://zenodo.org/records/4785016/files/CSD.zip)
-- [PJS](https://drive.google.com/file/d/1hPHwOkSe2Vnq6hXrhVtzNskJjVMQmvN_/view)
-- [Opencpop](https://wenet.org.cn/opencpop/download/)
-- [NUS-48E](https://drive.google.com/drive/folders/12pP9uUl0HTVANU3IPLnumTJiRjPtVUMx)
-- [NHSS](https://hltnus.github.io/NHSSDatabase/)
+- <a href="https://drive.google.com/file/d/1EofoZxvalgMjZqzUEuEdleHIZ6SHtNuK/view" target="_blank">OpenSinger</a>  
+- <a href="https://drive.google.com/file/d/1xC37E59EWRRFFLdG3aJkVqwtLDgtFNqW/view" target="_blank">M4Singer</a>  
+- <a href="https://zenodo.org/records/4785016/files/CSD.zip" target="_blank">CSD</a>  
+- <a href="https://drive.google.com/file/d/1hPHwOkSe2Vnq6hXrhVtzNskJjVMQmvN_/view" target="_blank">PJS</a>  
+- <a href="https://wenet.org.cn/opencpop/download/" target="_blank">Opencpop</a>  
+- <a href="https://drive.google.com/drive/folders/12pP9uUl0HTVANU3IPLnumTJiRjPtVUMx" target="_blank">NUS-48E</a>  
+- <a href="https://hltnus.github.io/NHSSDatabase/" target="_blank">NHSS</a>  
+
 
 ## Installation
 
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/ReverbFX.git
-cd ReverbFX
+git clone https://github.com/sp-uhh/singing_reverbfx.git
+cd singing_reverbfx
 pip install -r requirements.txt
 ```
 
